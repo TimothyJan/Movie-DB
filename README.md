@@ -24,5 +24,6 @@ The migrations feature in Entity Framework Core provides a way to:
 <ul>
   <li>Create the initial database schema.</li>
   <li>Incrementally update the database schema to keep it in sync with the app's data model. Existing data in the database is preserved.</li>
+  <li>Tools > NuGet Package Manager > Package Manager Console. <code>~Add-Migration NewDataModelField</code> and <code>~Update-Database</code></li>
 </ul>
 
